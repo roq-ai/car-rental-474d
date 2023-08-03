@@ -1,0 +1,1702 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "fe6a8bf2-f01c-4999-84f6-c45677af6bbf",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-02T19:35:26.489Z",
+        "updated_at": "2023-08-02T20:01:57.266Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "633e1ade-c579-4aba-80a9-d0b2cfe0ea8a",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-03T06:48:19.313Z",
+        "updated_at": "2023-08-02T16:16:13.786Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "42fd0d2a-0d28-4cb5-b927-d6b640e60ce4",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-02T20:54:37.961Z",
+        "updated_at": "2023-08-03T04:16:11.578Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a40f22ec-8182-4061-9f04-973d31638a58",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-02T15:38:38.482Z",
+        "updated_at": "2023-08-02T19:06:48.156Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "14c16c44-8fae-4eed-be03-d7abcaeaec76",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-03T03:51:31.584Z",
+        "updated_at": "2023-08-03T04:03:26.122Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "99844b1a-e454-4469-9e3f-fc6b61d77b4c",
+        "usage_time": "2023-08-02T15:41:03.962Z",
+        "created_at": "2023-08-03T09:29:01.883Z",
+        "updated_at": "2023-08-02T18:48:18.539Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "633e1ade-c579-4aba-80a9-d0b2cfe0ea8a"
+      },
+      {
+        "id": "1b35e034-e014-4a65-ae40-c022f311852b",
+        "usage_time": "2023-08-03T06:39:42.743Z",
+        "created_at": "2023-08-03T11:50:21.100Z",
+        "updated_at": "2023-08-03T01:33:32.234Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fe6a8bf2-f01c-4999-84f6-c45677af6bbf"
+      },
+      {
+        "id": "ef52b2c6-a4b2-4294-823d-366656e0e3e0",
+        "usage_time": "2023-08-03T02:50:36.584Z",
+        "created_at": "2023-08-02T14:27:24.444Z",
+        "updated_at": "2023-08-03T09:02:59.361Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "633e1ade-c579-4aba-80a9-d0b2cfe0ea8a"
+      },
+      {
+        "id": "67e29ba3-16c2-4559-8c56-e5fbc5a20dc7",
+        "usage_time": "2023-08-03T04:49:23.777Z",
+        "created_at": "2023-08-03T06:36:08.654Z",
+        "updated_at": "2023-08-03T00:02:32.142Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "14c16c44-8fae-4eed-be03-d7abcaeaec76"
+      },
+      {
+        "id": "bca90a1c-f543-4aff-82c3-522898263c09",
+        "usage_time": "2023-08-03T07:02:26.171Z",
+        "created_at": "2023-08-03T00:44:30.268Z",
+        "updated_at": "2023-08-03T04:52:02.500Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a40f22ec-8182-4061-9f04-973d31638a58"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "16ecdb0c-ae7a-406c-80be-b024ee1afec0",
+        "start_time": "2023-08-03T06:36:22.533Z",
+        "end_time": "2023-08-03T01:44:31.592Z",
+        "created_at": "2023-08-03T11:45:49.132Z",
+        "updated_at": "2023-08-02T22:16:50.185Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "633e1ade-c579-4aba-80a9-d0b2cfe0ea8a"
+      },
+      {
+        "id": "00e7944f-5927-4b1e-b558-e37d536850f1",
+        "start_time": "2023-08-03T01:32:20.081Z",
+        "end_time": "2023-08-02T14:51:51.752Z",
+        "created_at": "2023-08-03T06:32:35.118Z",
+        "updated_at": "2023-08-03T00:55:24.583Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "14c16c44-8fae-4eed-be03-d7abcaeaec76"
+      },
+      {
+        "id": "53fc280d-5dca-4a7b-90e5-7ef7b008cc64",
+        "start_time": "2023-08-03T12:12:57.893Z",
+        "end_time": "2023-08-03T12:40:52.955Z",
+        "created_at": "2023-08-03T06:21:01.694Z",
+        "updated_at": "2023-08-02T22:13:26.366Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a40f22ec-8182-4061-9f04-973d31638a58"
+      },
+      {
+        "id": "d2e992c0-528c-44e8-81d7-0ad3cb9d2e46",
+        "start_time": "2023-08-02T16:44:16.790Z",
+        "end_time": "2023-08-03T11:05:08.624Z",
+        "created_at": "2023-08-03T10:54:50.188Z",
+        "updated_at": "2023-08-03T03:32:49.388Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "42fd0d2a-0d28-4cb5-b927-d6b640e60ce4"
+      },
+      {
+        "id": "f9ffd600-26c2-4d75-8753-73e586b425af",
+        "start_time": "2023-08-03T03:16:58.522Z",
+        "end_time": "2023-08-03T02:02:53.533Z",
+        "created_at": "2023-08-03T03:52:31.071Z",
+        "updated_at": "2023-08-02T23:48:14.441Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "14c16c44-8fae-4eed-be03-d7abcaeaec76"
+      }
+    ],
+    "performance": [
+      {
+        "id": "e6db9cc4-4167-4875-9667-bafdaa1ed121",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-03T00:31:35.915Z",
+        "updated_at": "2023-08-02T20:37:00.669Z",
+        "vehicle_id": "42fd0d2a-0d28-4cb5-b927-d6b640e60ce4"
+      },
+      {
+        "id": "7d7f3ae4-15ac-4820-b25e-4b214acfaddf",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T12:07:32.973Z",
+        "updated_at": "2023-08-03T13:45:51.244Z",
+        "vehicle_id": "42fd0d2a-0d28-4cb5-b927-d6b640e60ce4"
+      },
+      {
+        "id": "fb697d59-20f0-4637-ba95-d0f82cf9e485",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-03T03:00:58.998Z",
+        "updated_at": "2023-08-02T21:42:57.221Z",
+        "vehicle_id": "a40f22ec-8182-4061-9f04-973d31638a58"
+      },
+      {
+        "id": "caabaadd-6b3a-4644-a979-86e39e4e8562",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T00:58:24.885Z",
+        "updated_at": "2023-08-02T16:18:28.964Z",
+        "vehicle_id": "a40f22ec-8182-4061-9f04-973d31638a58"
+      },
+      {
+        "id": "5734d2b0-faab-4867-b46f-d46200ea6afc",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T15:29:24.707Z",
+        "updated_at": "2023-08-02T22:23:11.133Z",
+        "vehicle_id": "fe6a8bf2-f01c-4999-84f6-c45677af6bbf"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "5327e4e8-e5c8-4522-9b1d-ed281b18b827",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-02T22:07:27.289Z",
+        "updated_at": "2023-08-02T19:03:41.882Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "17885d27-b76c-4bf6-b2fb-fd5fcac4ed9f",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-02T23:51:28.027Z",
+        "updated_at": "2023-08-02T19:07:28.017Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "dc7fe00d-33a1-4112-a9e1-51bc69902005",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-03T11:36:32.327Z",
+        "updated_at": "2023-08-03T05:20:05.902Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b1c5aa26-bbbe-4eb4-8771-a9e0ca651099",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-03T01:50:40.133Z",
+        "updated_at": "2023-08-02T19:28:34.694Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7711ad80-b572-4445-ac46-6ef492dc6bab",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-03T10:34:51.681Z",
+        "updated_at": "2023-08-02T21:42:46.757Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "cdffe1b8-5194-47b4-86c9-8119dc43fd07",
+        "usage_time": "2023-08-02T20:03:47.808Z",
+        "created_at": "2023-08-03T04:49:15.312Z",
+        "updated_at": "2023-08-03T00:54:24.778Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "17885d27-b76c-4bf6-b2fb-fd5fcac4ed9f"
+      },
+      {
+        "id": "841ffe66-be0f-4e24-9b47-9afe4d8fc181",
+        "usage_time": "2023-08-03T04:13:44.517Z",
+        "created_at": "2023-08-03T06:10:45.044Z",
+        "updated_at": "2023-08-03T09:00:00.754Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b1c5aa26-bbbe-4eb4-8771-a9e0ca651099"
+      },
+      {
+        "id": "ecf492ec-0cfc-4982-90c3-37a4aef05d82",
+        "usage_time": "2023-08-03T09:17:46.681Z",
+        "created_at": "2023-08-03T01:07:28.293Z",
+        "updated_at": "2023-08-02T22:02:02.810Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "17885d27-b76c-4bf6-b2fb-fd5fcac4ed9f"
+      },
+      {
+        "id": "7170bf5b-c978-4097-b688-61b84b85478a",
+        "usage_time": "2023-08-03T00:26:52.654Z",
+        "created_at": "2023-08-02T14:52:43.821Z",
+        "updated_at": "2023-08-03T07:25:01.719Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "dc7fe00d-33a1-4112-a9e1-51bc69902005"
+      },
+      {
+        "id": "bf72771e-2718-4a87-9e9e-df448254b30b",
+        "usage_time": "2023-08-02T19:14:54.666Z",
+        "created_at": "2023-08-03T07:14:45.439Z",
+        "updated_at": "2023-08-02T19:06:33.771Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7711ad80-b572-4445-ac46-6ef492dc6bab"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "0fd04fb3-7c46-4328-b53e-b747248eda48",
+        "start_time": "2023-08-03T12:55:10.354Z",
+        "end_time": "2023-08-03T02:17:13.201Z",
+        "created_at": "2023-08-02T16:12:15.833Z",
+        "updated_at": "2023-08-03T08:11:34.010Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7711ad80-b572-4445-ac46-6ef492dc6bab"
+      },
+      {
+        "id": "0fa854b8-d8e8-4bb4-95fa-f356cdb87e7f",
+        "start_time": "2023-08-03T01:33:26.018Z",
+        "end_time": "2023-08-02T17:41:19.783Z",
+        "created_at": "2023-08-03T12:28:28.418Z",
+        "updated_at": "2023-08-03T01:43:32.523Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "17885d27-b76c-4bf6-b2fb-fd5fcac4ed9f"
+      },
+      {
+        "id": "24ad89af-22c1-44a7-a025-9405a3b7e6bd",
+        "start_time": "2023-08-03T14:14:12.610Z",
+        "end_time": "2023-08-03T06:10:55.409Z",
+        "created_at": "2023-08-03T06:43:56.363Z",
+        "updated_at": "2023-08-03T12:30:56.387Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "dc7fe00d-33a1-4112-a9e1-51bc69902005"
+      },
+      {
+        "id": "2494f60a-f145-4003-ad17-b1d3bbd1d8c4",
+        "start_time": "2023-08-02T23:29:20.989Z",
+        "end_time": "2023-08-03T04:46:15.444Z",
+        "created_at": "2023-08-02T18:34:40.189Z",
+        "updated_at": "2023-08-03T01:46:34.231Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "dc7fe00d-33a1-4112-a9e1-51bc69902005"
+      },
+      {
+        "id": "d8da806e-2c3b-428a-ba6b-4d5bda5753bd",
+        "start_time": "2023-08-03T09:28:47.840Z",
+        "end_time": "2023-08-02T22:23:39.685Z",
+        "created_at": "2023-08-02T22:31:16.183Z",
+        "updated_at": "2023-08-03T10:26:34.405Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "dc7fe00d-33a1-4112-a9e1-51bc69902005"
+      }
+    ],
+    "performance": [
+      {
+        "id": "8f2fe478-263d-4d3c-9c7a-cc11d08da3d7",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-03T09:15:31.210Z",
+        "updated_at": "2023-08-02T14:27:09.469Z",
+        "vehicle_id": "7711ad80-b572-4445-ac46-6ef492dc6bab"
+      },
+      {
+        "id": "2f040767-0936-49a2-bda0-959c14e1f656",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T20:09:26.030Z",
+        "updated_at": "2023-08-03T00:54:00.811Z",
+        "vehicle_id": "7711ad80-b572-4445-ac46-6ef492dc6bab"
+      },
+      {
+        "id": "9bb41a0c-877a-418f-9dbc-4d6456a826af",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-03T04:07:03.390Z",
+        "updated_at": "2023-08-02T23:00:01.959Z",
+        "vehicle_id": "7711ad80-b572-4445-ac46-6ef492dc6bab"
+      },
+      {
+        "id": "8b3fa4de-4f3b-4925-9987-2e94667b03e0",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T02:57:24.207Z",
+        "updated_at": "2023-08-02T20:26:40.531Z",
+        "vehicle_id": "7711ad80-b572-4445-ac46-6ef492dc6bab"
+      },
+      {
+        "id": "7bd03758-fa17-4565-bb1a-8bf07b0d55da",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-03T05:18:21.551Z",
+        "updated_at": "2023-08-02T15:59:41.554Z",
+        "vehicle_id": "17885d27-b76c-4bf6-b2fb-fd5fcac4ed9f"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "56516b9c-e7d3-4fe0-9020-a95141d03e98",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-02T23:11:12.615Z",
+        "updated_at": "2023-08-02T22:56:27.984Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6645168b-e27e-4357-a805-024983e8ecc4",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-02T16:05:23.839Z",
+        "updated_at": "2023-08-02T15:19:57.589Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6bfece27-7317-4135-be65-cdcde7b9c17d",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-03T11:55:44.016Z",
+        "updated_at": "2023-08-02T14:53:32.704Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8f6de34e-c6f3-4bb2-9087-27d28652afd0",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-03T00:45:35.000Z",
+        "updated_at": "2023-08-03T13:28:34.158Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "3ea61ec3-4432-41fa-9933-2bec0f869b0b",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-03T00:14:59.498Z",
+        "updated_at": "2023-08-02T17:02:11.578Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "182ecfa0-9ae1-453f-8588-01c39d5aa583",
+        "usage_time": "2023-08-03T02:07:46.453Z",
+        "created_at": "2023-08-03T00:45:34.899Z",
+        "updated_at": "2023-08-02T17:17:25.874Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "8f6de34e-c6f3-4bb2-9087-27d28652afd0"
+      },
+      {
+        "id": "9a6afdc0-9dfe-49b2-8e68-cef30a716f37",
+        "usage_time": "2023-08-03T04:55:31.541Z",
+        "created_at": "2023-08-02T16:15:04.206Z",
+        "updated_at": "2023-08-03T12:50:12.199Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6bfece27-7317-4135-be65-cdcde7b9c17d"
+      },
+      {
+        "id": "2594082e-b5ba-4984-9e36-cbde8940e102",
+        "usage_time": "2023-08-03T10:14:12.656Z",
+        "created_at": "2023-08-02T19:15:40.054Z",
+        "updated_at": "2023-08-02T16:05:37.300Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "56516b9c-e7d3-4fe0-9020-a95141d03e98"
+      },
+      {
+        "id": "98b34e17-0e8a-4d04-9a47-52569e4b1f95",
+        "usage_time": "2023-08-02T17:16:50.626Z",
+        "created_at": "2023-08-02T17:48:27.489Z",
+        "updated_at": "2023-08-02T16:43:59.071Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6bfece27-7317-4135-be65-cdcde7b9c17d"
+      },
+      {
+        "id": "f83a7c3e-c63c-4c28-941f-1037bb1539d0",
+        "usage_time": "2023-08-02T23:20:03.509Z",
+        "created_at": "2023-08-03T14:09:05.871Z",
+        "updated_at": "2023-08-03T07:16:31.495Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "8f6de34e-c6f3-4bb2-9087-27d28652afd0"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "fb3fe0eb-214a-4a54-aa03-e5cfe537a8cc",
+        "start_time": "2023-08-02T21:19:25.935Z",
+        "end_time": "2023-08-02T22:01:20.816Z",
+        "created_at": "2023-08-02T21:17:37.923Z",
+        "updated_at": "2023-08-02T22:04:18.663Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6645168b-e27e-4357-a805-024983e8ecc4"
+      },
+      {
+        "id": "a5651ed3-dcbe-49a8-a443-a7c5ddd7975e",
+        "start_time": "2023-08-03T04:34:41.305Z",
+        "end_time": "2023-08-02T18:25:19.959Z",
+        "created_at": "2023-08-02T14:56:27.705Z",
+        "updated_at": "2023-08-03T05:58:22.816Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "8f6de34e-c6f3-4bb2-9087-27d28652afd0"
+      },
+      {
+        "id": "81ffbd9c-9341-4732-8824-0022c6656b64",
+        "start_time": "2023-08-03T02:14:16.210Z",
+        "end_time": "2023-08-03T01:31:10.495Z",
+        "created_at": "2023-08-02T17:59:20.112Z",
+        "updated_at": "2023-08-03T05:49:38.416Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3ea61ec3-4432-41fa-9933-2bec0f869b0b"
+      },
+      {
+        "id": "e5a344d1-60a9-401c-a99d-bcfa114894b7",
+        "start_time": "2023-08-02T23:17:00.580Z",
+        "end_time": "2023-08-03T02:28:23.846Z",
+        "created_at": "2023-08-03T06:32:01.812Z",
+        "updated_at": "2023-08-03T07:33:27.526Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "8f6de34e-c6f3-4bb2-9087-27d28652afd0"
+      },
+      {
+        "id": "b04732f3-cf3b-40a3-b5fa-1718385637d8",
+        "start_time": "2023-08-02T16:39:59.913Z",
+        "end_time": "2023-08-02T23:39:34.595Z",
+        "created_at": "2023-08-03T03:52:31.953Z",
+        "updated_at": "2023-08-02T21:36:58.561Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "8f6de34e-c6f3-4bb2-9087-27d28652afd0"
+      }
+    ],
+    "performance": [
+      {
+        "id": "cce492b7-fc3b-43c3-bd90-127e3c4ac315",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T20:59:40.317Z",
+        "updated_at": "2023-08-03T10:04:33.679Z",
+        "vehicle_id": "3ea61ec3-4432-41fa-9933-2bec0f869b0b"
+      },
+      {
+        "id": "82c435a5-7f4f-4a4f-bd7d-c118592c109c",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T15:29:05.609Z",
+        "updated_at": "2023-08-02T15:47:34.502Z",
+        "vehicle_id": "8f6de34e-c6f3-4bb2-9087-27d28652afd0"
+      },
+      {
+        "id": "4983f3de-6d61-4258-b71b-425e25347c65",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-03T07:37:44.601Z",
+        "updated_at": "2023-08-03T02:51:16.533Z",
+        "vehicle_id": "6bfece27-7317-4135-be65-cdcde7b9c17d"
+      },
+      {
+        "id": "1435c0a8-a5af-4022-afb1-3ab842965a2d",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T09:21:33.973Z",
+        "updated_at": "2023-08-03T13:26:07.924Z",
+        "vehicle_id": "6645168b-e27e-4357-a805-024983e8ecc4"
+      },
+      {
+        "id": "ac2776a5-62d1-4a9a-9c7c-872441950c7a",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T21:18:26.806Z",
+        "updated_at": "2023-08-02T21:56:46.819Z",
+        "vehicle_id": "8f6de34e-c6f3-4bb2-9087-27d28652afd0"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "df65a6e8-6bea-477f-915c-06df1d73dadc",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-03T07:45:35.934Z",
+        "updated_at": "2023-08-03T05:50:16.565Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "eec464ce-fc10-4f9b-b331-7f27de63a259",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-03T13:34:00.568Z",
+        "updated_at": "2023-08-03T00:44:16.070Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f0cbac8f-6d71-4435-9815-27434e76796e",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-02T17:23:21.708Z",
+        "updated_at": "2023-08-02T21:58:46.703Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "07aef675-dc17-4d37-8815-73ab31bed464",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-03T02:27:25.997Z",
+        "updated_at": "2023-08-03T06:30:25.417Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d6598e49-f8e5-4471-bc38-4fc989b72822",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-02T18:24:59.126Z",
+        "updated_at": "2023-08-03T07:28:31.189Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "6b52ed51-df67-41d6-a5ee-bd1579befddb",
+        "usage_time": "2023-08-02T19:04:08.293Z",
+        "created_at": "2023-08-02T20:15:45.396Z",
+        "updated_at": "2023-08-03T07:06:39.234Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "df65a6e8-6bea-477f-915c-06df1d73dadc"
+      },
+      {
+        "id": "47b42b93-43bb-42a1-8074-22ce5f2bcdf7",
+        "usage_time": "2023-08-02T16:25:18.389Z",
+        "created_at": "2023-08-02T16:22:51.563Z",
+        "updated_at": "2023-08-02T23:06:15.447Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f0cbac8f-6d71-4435-9815-27434e76796e"
+      },
+      {
+        "id": "71015e48-d175-4870-9a0c-37ac4c91dbe7",
+        "usage_time": "2023-08-02T22:01:35.802Z",
+        "created_at": "2023-08-03T08:00:57.735Z",
+        "updated_at": "2023-08-02T20:32:08.645Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "07aef675-dc17-4d37-8815-73ab31bed464"
+      },
+      {
+        "id": "9885c4c1-c755-4539-a4cf-dc3cd10dd8f4",
+        "usage_time": "2023-08-03T14:18:30.948Z",
+        "created_at": "2023-08-02T23:48:58.972Z",
+        "updated_at": "2023-08-02T18:19:31.355Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "07aef675-dc17-4d37-8815-73ab31bed464"
+      },
+      {
+        "id": "213de0e3-6464-47d9-9676-180b880ccb79",
+        "usage_time": "2023-08-03T11:22:02.375Z",
+        "created_at": "2023-08-03T00:24:04.028Z",
+        "updated_at": "2023-08-03T09:26:10.134Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "07aef675-dc17-4d37-8815-73ab31bed464"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "1f092555-ef3d-4ce4-8ba1-5df0f4fbdccd",
+        "start_time": "2023-08-03T08:49:50.395Z",
+        "end_time": "2023-08-02T23:58:44.982Z",
+        "created_at": "2023-08-03T01:55:53.886Z",
+        "updated_at": "2023-08-03T02:02:38.776Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "df65a6e8-6bea-477f-915c-06df1d73dadc"
+      },
+      {
+        "id": "91e05d5e-c12b-4eaa-b005-5ba4cb380800",
+        "start_time": "2023-08-02T14:35:16.976Z",
+        "end_time": "2023-08-03T12:15:12.812Z",
+        "created_at": "2023-08-02T19:05:25.856Z",
+        "updated_at": "2023-08-02T22:28:34.180Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f0cbac8f-6d71-4435-9815-27434e76796e"
+      },
+      {
+        "id": "5bbeb223-17e0-4d26-aebc-535831408b4b",
+        "start_time": "2023-08-03T10:51:34.765Z",
+        "end_time": "2023-08-03T12:11:37.787Z",
+        "created_at": "2023-08-02T15:46:58.615Z",
+        "updated_at": "2023-08-02T17:53:36.480Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "df65a6e8-6bea-477f-915c-06df1d73dadc"
+      },
+      {
+        "id": "e20ba8b5-73b9-4895-a5ce-e5d32b5bb847",
+        "start_time": "2023-08-03T00:06:22.670Z",
+        "end_time": "2023-08-03T08:24:09.541Z",
+        "created_at": "2023-08-03T05:41:43.178Z",
+        "updated_at": "2023-08-02T15:19:33.348Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "07aef675-dc17-4d37-8815-73ab31bed464"
+      },
+      {
+        "id": "3529f8d6-bb03-4b95-8923-c3dcb3c6a8e6",
+        "start_time": "2023-08-03T09:43:53.409Z",
+        "end_time": "2023-08-03T10:26:31.210Z",
+        "created_at": "2023-08-02T19:08:53.742Z",
+        "updated_at": "2023-08-03T14:00:50.319Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "df65a6e8-6bea-477f-915c-06df1d73dadc"
+      }
+    ],
+    "performance": [
+      {
+        "id": "20fe845c-93fc-4a0b-9259-e1e74629d441",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T18:25:21.726Z",
+        "updated_at": "2023-08-02T19:56:58.781Z",
+        "vehicle_id": "eec464ce-fc10-4f9b-b331-7f27de63a259"
+      },
+      {
+        "id": "e602eef3-4754-4645-9355-1224af761046",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T08:48:42.234Z",
+        "updated_at": "2023-08-02T14:50:42.669Z",
+        "vehicle_id": "df65a6e8-6bea-477f-915c-06df1d73dadc"
+      },
+      {
+        "id": "d67ccfb2-ebb6-4271-ac23-31046047ad7b",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-03T08:37:36.887Z",
+        "updated_at": "2023-08-03T05:11:25.401Z",
+        "vehicle_id": "07aef675-dc17-4d37-8815-73ab31bed464"
+      },
+      {
+        "id": "6bd1fe05-baac-411c-ae7a-78a9fcee90be",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T18:21:32.818Z",
+        "updated_at": "2023-08-03T05:23:25.142Z",
+        "vehicle_id": "07aef675-dc17-4d37-8815-73ab31bed464"
+      },
+      {
+        "id": "7800231b-4530-4801-bca3-3ae66a214f69",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T16:43:03.204Z",
+        "updated_at": "2023-08-02T23:06:53.699Z",
+        "vehicle_id": "07aef675-dc17-4d37-8815-73ab31bed464"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "4372a7d8-8753-457e-abc7-b3cd59fab0d0",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-03T02:44:58.492Z",
+        "updated_at": "2023-08-02T19:53:44.380Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b8ec8f8a-cb60-4dcc-8ab8-420c9e5fba36",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-02T19:05:02.117Z",
+        "updated_at": "2023-08-02T14:46:38.963Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-02T22:16:15.526Z",
+        "updated_at": "2023-08-03T06:04:29.090Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ab0c3316-b2ca-408f-b04c-723434b60ee1",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-03T00:05:20.474Z",
+        "updated_at": "2023-08-02T15:26:41.046Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7b179829-624b-4261-a01d-e1a1068e84fa",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-02T23:07:44.456Z",
+        "updated_at": "2023-08-02T23:43:01.725Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "b332ecba-53fa-4456-a71d-f30a3e75ce4e",
+        "usage_time": "2023-08-02T17:23:44.191Z",
+        "created_at": "2023-08-02T18:46:33.587Z",
+        "updated_at": "2023-08-02T23:55:07.815Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6"
+      },
+      {
+        "id": "ba0dc87f-f534-4d13-a16e-142537f32a89",
+        "usage_time": "2023-08-03T01:06:48.195Z",
+        "created_at": "2023-08-02T22:26:32.450Z",
+        "updated_at": "2023-08-02T15:46:09.708Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b8ec8f8a-cb60-4dcc-8ab8-420c9e5fba36"
+      },
+      {
+        "id": "cc802445-3cd8-448f-be93-c5810259caee",
+        "usage_time": "2023-08-02T22:30:45.302Z",
+        "created_at": "2023-08-03T01:52:12.757Z",
+        "updated_at": "2023-08-02T16:37:42.233Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6"
+      },
+      {
+        "id": "a1d77eab-9858-4468-9f22-a9ca35aa6c01",
+        "usage_time": "2023-08-03T11:03:59.924Z",
+        "created_at": "2023-08-03T03:23:23.751Z",
+        "updated_at": "2023-08-02T20:49:31.047Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6"
+      },
+      {
+        "id": "44287f55-a7a2-44dc-8871-50aaebf2026e",
+        "usage_time": "2023-08-02T23:40:51.666Z",
+        "created_at": "2023-08-03T04:38:19.143Z",
+        "updated_at": "2023-08-03T14:22:34.047Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ab0c3316-b2ca-408f-b04c-723434b60ee1"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "7ad1bf6e-47bc-47ad-87f4-a037b51dd69e",
+        "start_time": "2023-08-03T03:37:03.170Z",
+        "end_time": "2023-08-02T22:29:33.489Z",
+        "created_at": "2023-08-03T06:11:31.606Z",
+        "updated_at": "2023-08-03T05:50:46.356Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7b179829-624b-4261-a01d-e1a1068e84fa"
+      },
+      {
+        "id": "17be97fd-5666-443f-bb96-c600807cbbab",
+        "start_time": "2023-08-02T19:34:57.875Z",
+        "end_time": "2023-08-03T04:21:01.824Z",
+        "created_at": "2023-08-03T12:04:02.037Z",
+        "updated_at": "2023-08-03T12:53:38.510Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6"
+      },
+      {
+        "id": "d12d652e-8385-4e53-88dc-d7daf0908a1d",
+        "start_time": "2023-08-03T12:10:34.613Z",
+        "end_time": "2023-08-02T15:02:34.247Z",
+        "created_at": "2023-08-03T12:08:34.481Z",
+        "updated_at": "2023-08-02T22:00:24.640Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6"
+      },
+      {
+        "id": "c9e93083-fbc1-412c-bb80-35738fa46f06",
+        "start_time": "2023-08-03T03:12:35.770Z",
+        "end_time": "2023-08-02T19:48:06.890Z",
+        "created_at": "2023-08-03T13:20:22.343Z",
+        "updated_at": "2023-08-03T09:06:27.557Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4372a7d8-8753-457e-abc7-b3cd59fab0d0"
+      },
+      {
+        "id": "0e7c041a-188b-48da-aa59-05b9d561ae7d",
+        "start_time": "2023-08-02T18:55:20.112Z",
+        "end_time": "2023-08-03T02:12:44.047Z",
+        "created_at": "2023-08-02T16:24:04.552Z",
+        "updated_at": "2023-08-03T03:36:43.479Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7b179829-624b-4261-a01d-e1a1068e84fa"
+      }
+    ],
+    "performance": [
+      {
+        "id": "033318a2-43d1-4c90-9242-a26cfc914497",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T19:37:43.207Z",
+        "updated_at": "2023-08-03T05:48:51.192Z",
+        "vehicle_id": "ab0c3316-b2ca-408f-b04c-723434b60ee1"
+      },
+      {
+        "id": "0b52fc8e-7624-4f04-a476-f073e7988ff4",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T00:18:46.736Z",
+        "updated_at": "2023-08-03T07:44:49.129Z",
+        "vehicle_id": "7b179829-624b-4261-a01d-e1a1068e84fa"
+      },
+      {
+        "id": "97780767-dbff-49a3-a98a-704291c49f10",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-03T11:37:32.553Z",
+        "updated_at": "2023-08-02T23:50:13.975Z",
+        "vehicle_id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6"
+      },
+      {
+        "id": "4cd93023-e5a7-45fc-8861-d0ebaf243195",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T21:07:04.600Z",
+        "updated_at": "2023-08-02T15:53:49.572Z",
+        "vehicle_id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6"
+      },
+      {
+        "id": "e75f1653-2c48-453d-9e56-c4fa68308a09",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-03T01:57:08.620Z",
+        "updated_at": "2023-08-02T22:04:48.015Z",
+        "vehicle_id": "e0d4e169-7f9c-4d18-a7a5-9d76c917e7e6"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "945cf68e-d94f-465e-8dff-5ee5c949d76a",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-03T03:58:44.146Z",
+        "updated_at": "2023-08-02T23:24:31.838Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "139f4f5f-0ddc-4dcc-a01e-d7126652fe97",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-02T23:07:51.612Z",
+        "updated_at": "2023-08-02T22:26:36.452Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6da28111-3f85-42d6-a9a3-420ae42ce905",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-02T23:35:49.065Z",
+        "updated_at": "2023-08-03T00:07:12.115Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "cf9aa824-4fb1-4181-969f-1ddaa7b554e8",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-02T17:52:44.273Z",
+        "updated_at": "2023-08-03T10:40:42.913Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "cc006814-7be6-41a4-9ecf-fdd50384a667",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-02T16:56:53.475Z",
+        "updated_at": "2023-08-02T14:55:26.992Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "05f7d689-8931-45c3-acbe-19213ee8df2c",
+        "usage_time": "2023-08-03T04:41:47.236Z",
+        "created_at": "2023-08-02T20:50:39.802Z",
+        "updated_at": "2023-08-02T14:36:36.103Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cc006814-7be6-41a4-9ecf-fdd50384a667"
+      },
+      {
+        "id": "9a471521-745f-4807-aace-cc177bc113d1",
+        "usage_time": "2023-08-03T03:31:45.652Z",
+        "created_at": "2023-08-03T01:12:08.470Z",
+        "updated_at": "2023-08-02T16:06:33.208Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6da28111-3f85-42d6-a9a3-420ae42ce905"
+      },
+      {
+        "id": "9140d247-ea42-44ba-9ab5-dcf0acb04916",
+        "usage_time": "2023-08-02T18:50:16.105Z",
+        "created_at": "2023-08-02T23:57:05.611Z",
+        "updated_at": "2023-08-02T16:59:46.850Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "139f4f5f-0ddc-4dcc-a01e-d7126652fe97"
+      },
+      {
+        "id": "a7b7ccdd-5973-419a-b4e9-67f7d48ac247",
+        "usage_time": "2023-08-02T15:26:06.875Z",
+        "created_at": "2023-08-03T11:16:32.895Z",
+        "updated_at": "2023-08-03T02:27:56.916Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "139f4f5f-0ddc-4dcc-a01e-d7126652fe97"
+      },
+      {
+        "id": "a5658c9e-246b-4dbf-a27b-290d45861c6f",
+        "usage_time": "2023-08-03T07:33:25.994Z",
+        "created_at": "2023-08-02T21:50:14.008Z",
+        "updated_at": "2023-08-03T10:55:22.772Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf9aa824-4fb1-4181-969f-1ddaa7b554e8"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "6e1bb12b-1569-4bfd-8826-0a723c0b8f7c",
+        "start_time": "2023-08-02T18:55:51.497Z",
+        "end_time": "2023-08-03T06:01:24.216Z",
+        "created_at": "2023-08-03T12:23:49.115Z",
+        "updated_at": "2023-08-03T01:13:55.600Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf9aa824-4fb1-4181-969f-1ddaa7b554e8"
+      },
+      {
+        "id": "8ce46d9c-8d9a-4578-bbaf-05613c4fc5d6",
+        "start_time": "2023-08-03T05:48:41.665Z",
+        "end_time": "2023-08-02T21:34:35.300Z",
+        "created_at": "2023-08-02T15:10:10.517Z",
+        "updated_at": "2023-08-02T22:56:59.087Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "139f4f5f-0ddc-4dcc-a01e-d7126652fe97"
+      },
+      {
+        "id": "ccad578b-7db0-4a40-bf0c-c5906c8c92d9",
+        "start_time": "2023-08-03T00:19:41.373Z",
+        "end_time": "2023-08-03T07:29:10.421Z",
+        "created_at": "2023-08-03T05:50:28.934Z",
+        "updated_at": "2023-08-03T10:42:30.952Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf9aa824-4fb1-4181-969f-1ddaa7b554e8"
+      },
+      {
+        "id": "f0acbde7-6420-4fa6-805d-15f84241f485",
+        "start_time": "2023-08-02T21:25:49.458Z",
+        "end_time": "2023-08-03T03:56:15.798Z",
+        "created_at": "2023-08-02T19:57:10.043Z",
+        "updated_at": "2023-08-02T14:42:18.247Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cc006814-7be6-41a4-9ecf-fdd50384a667"
+      },
+      {
+        "id": "55196701-a172-45cc-a7ee-6b25ea59132a",
+        "start_time": "2023-08-03T06:29:08.647Z",
+        "end_time": "2023-08-03T05:51:28.815Z",
+        "created_at": "2023-08-03T06:08:28.946Z",
+        "updated_at": "2023-08-03T00:37:48.982Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "945cf68e-d94f-465e-8dff-5ee5c949d76a"
+      }
+    ],
+    "performance": [
+      {
+        "id": "71dbeada-b580-4853-b1ec-c67cc1102f6f",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T21:08:14.049Z",
+        "updated_at": "2023-08-02T23:59:49.463Z",
+        "vehicle_id": "cc006814-7be6-41a4-9ecf-fdd50384a667"
+      },
+      {
+        "id": "31b8018e-7322-4f22-90bd-ee666afffdd3",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T23:25:40.765Z",
+        "updated_at": "2023-08-03T04:16:34.926Z",
+        "vehicle_id": "945cf68e-d94f-465e-8dff-5ee5c949d76a"
+      },
+      {
+        "id": "af1f84d0-6f29-4e03-bb03-7798f5ab91ce",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-03T12:16:03.519Z",
+        "updated_at": "2023-08-02T16:03:54.703Z",
+        "vehicle_id": "6da28111-3f85-42d6-a9a3-420ae42ce905"
+      },
+      {
+        "id": "38a2e92f-3637-4114-8fb5-4571e7aa8ff1",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T07:03:00.794Z",
+        "updated_at": "2023-08-02T16:36:40.591Z",
+        "vehicle_id": "139f4f5f-0ddc-4dcc-a01e-d7126652fe97"
+      },
+      {
+        "id": "8463cf63-a643-4048-869f-009ad97527a7",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T15:58:12.249Z",
+        "updated_at": "2023-08-02T22:41:12.300Z",
+        "vehicle_id": "cf9aa824-4fb1-4181-969f-1ddaa7b554e8"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "d4ba024e-5786-4bd8-afdc-e86dc99e875b",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-03T11:49:48.165Z",
+        "updated_at": "2023-08-03T14:17:04.964Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "40fa8ca8-9345-4d70-9372-ecb35d4918e8",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-02T21:22:06.728Z",
+        "updated_at": "2023-08-02T15:02:57.178Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0488fb4a-8c5c-498b-9d1f-e5cb298a4688",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-02T22:47:40.469Z",
+        "updated_at": "2023-08-02T19:54:52.166Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e7af4c6c-1ce5-4e32-8536-a9a70c7d8453",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-02T22:33:48.799Z",
+        "updated_at": "2023-08-03T05:55:08.928Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8e542ad3-dfc0-4aa9-8977-ce1646e331e9",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-02T22:55:50.601Z",
+        "updated_at": "2023-08-03T02:23:20.471Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "6a25bcc8-23a5-42cb-99c4-29fdbd3875e9",
+        "usage_time": "2023-08-03T02:47:09.605Z",
+        "created_at": "2023-08-03T12:12:49.715Z",
+        "updated_at": "2023-08-03T02:27:34.693Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "8e542ad3-dfc0-4aa9-8977-ce1646e331e9"
+      },
+      {
+        "id": "121d0584-394c-45c5-ab06-d9cf2a6a72af",
+        "usage_time": "2023-08-02T19:01:05.973Z",
+        "created_at": "2023-08-03T02:06:45.723Z",
+        "updated_at": "2023-08-02T17:27:02.417Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d4ba024e-5786-4bd8-afdc-e86dc99e875b"
+      },
+      {
+        "id": "326547fd-b538-409a-868c-c596a169926d",
+        "usage_time": "2023-08-02T19:38:23.826Z",
+        "created_at": "2023-08-03T00:45:46.932Z",
+        "updated_at": "2023-08-03T02:54:45.258Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0488fb4a-8c5c-498b-9d1f-e5cb298a4688"
+      },
+      {
+        "id": "2041a445-cb54-4d9e-816f-ab45818b3f13",
+        "usage_time": "2023-08-03T04:12:26.466Z",
+        "created_at": "2023-08-03T01:50:45.215Z",
+        "updated_at": "2023-08-03T14:13:44.786Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e7af4c6c-1ce5-4e32-8536-a9a70c7d8453"
+      },
+      {
+        "id": "1cd532ae-938a-492f-9100-bd855fba0d92",
+        "usage_time": "2023-08-03T14:04:47.958Z",
+        "created_at": "2023-08-03T06:34:07.988Z",
+        "updated_at": "2023-08-03T02:27:10.293Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "8e542ad3-dfc0-4aa9-8977-ce1646e331e9"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "657f55a8-1126-4ddc-8498-1751cb25250a",
+        "start_time": "2023-08-03T08:20:46.775Z",
+        "end_time": "2023-08-02T20:23:42.639Z",
+        "created_at": "2023-08-02T17:30:53.396Z",
+        "updated_at": "2023-08-02T14:27:58.518Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0488fb4a-8c5c-498b-9d1f-e5cb298a4688"
+      },
+      {
+        "id": "f4973c3c-5d02-41c4-bc1f-2e9d5a87d306",
+        "start_time": "2023-08-02T20:19:40.544Z",
+        "end_time": "2023-08-03T06:11:58.401Z",
+        "created_at": "2023-08-03T12:50:50.034Z",
+        "updated_at": "2023-08-03T07:23:41.752Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e7af4c6c-1ce5-4e32-8536-a9a70c7d8453"
+      },
+      {
+        "id": "1cbd74c6-8889-462c-a69d-95f6997b7de9",
+        "start_time": "2023-08-02T21:36:46.546Z",
+        "end_time": "2023-08-02T14:41:13.632Z",
+        "created_at": "2023-08-03T14:22:31.552Z",
+        "updated_at": "2023-08-02T16:34:01.028Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d4ba024e-5786-4bd8-afdc-e86dc99e875b"
+      },
+      {
+        "id": "b4429e25-b259-45d7-9b69-201641757189",
+        "start_time": "2023-08-03T10:46:19.907Z",
+        "end_time": "2023-08-02T22:42:52.547Z",
+        "created_at": "2023-08-03T12:21:44.630Z",
+        "updated_at": "2023-08-03T02:54:54.674Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d4ba024e-5786-4bd8-afdc-e86dc99e875b"
+      },
+      {
+        "id": "fc39896b-926f-4e87-93ba-948fe9f7370e",
+        "start_time": "2023-08-03T06:05:48.507Z",
+        "end_time": "2023-08-02T17:49:30.056Z",
+        "created_at": "2023-08-03T10:02:59.583Z",
+        "updated_at": "2023-08-03T06:41:13.497Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0488fb4a-8c5c-498b-9d1f-e5cb298a4688"
+      }
+    ],
+    "performance": [
+      {
+        "id": "fe11daaf-9d79-485f-8d69-8891ed169570",
+        "usage_data": "1000 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-03T01:30:23.587Z",
+        "updated_at": "2023-08-03T06:21:17.765Z",
+        "vehicle_id": "8e542ad3-dfc0-4aa9-8977-ce1646e331e9"
+      },
+      {
+        "id": "ca4cea52-97ef-4b53-9c3b-0975cf75e648",
+        "usage_data": "500 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-02T22:38:32.548Z",
+        "updated_at": "2023-08-02T16:06:46.728Z",
+        "vehicle_id": "e7af4c6c-1ce5-4e32-8536-a9a70c7d8453"
+      },
+      {
+        "id": "4ae2200e-310b-4be6-bbc4-56d92d342703",
+        "usage_data": "2000 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T07:48:13.573Z",
+        "updated_at": "2023-08-03T01:43:11.990Z",
+        "vehicle_id": "d4ba024e-5786-4bd8-afdc-e86dc99e875b"
+      },
+      {
+        "id": "922dea39-c0e1-45b8-9fd0-40c6bf7086b5",
+        "usage_data": "800 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-03T01:31:51.464Z",
+        "updated_at": "2023-08-02T21:55:30.324Z",
+        "vehicle_id": "d4ba024e-5786-4bd8-afdc-e86dc99e875b"
+      },
+      {
+        "id": "be65f3e2-d8f7-48cf-95c6-d9e59ad2fabb",
+        "usage_data": "1500 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-02T17:06:49.859Z",
+        "updated_at": "2023-08-02T19:32:23.617Z",
+        "vehicle_id": "8e542ad3-dfc0-4aa9-8977-ce1646e331e9"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "d020b37c-739e-4cac-a6dc-06ba5d5a129e",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-03T11:50:27.565Z",
+        "updated_at": "2023-08-03T11:57:56.505Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "4c40644f-acf8-46ce-be26-8eed0247b37f",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-03T01:24:38.533Z",
+        "updated_at": "2023-08-03T09:25:16.159Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b499c3a8-802e-4eda-b9d7-7bcce90dfca0",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-02T14:29:01.906Z",
+        "updated_at": "2023-08-03T08:20:27.501Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1c57348a-4177-4a71-a0d2-2eab34912150",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-03T07:47:51.624Z",
+        "updated_at": "2023-08-03T04:48:05.770Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ebcc088d-9049-49a3-bf57-fefd558b1fbf",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-02T14:44:34.703Z",
+        "updated_at": "2023-08-03T04:36:26.713Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "07550258-5fc7-4eb1-b282-ea1a5914ba24",
+        "usage_time": "2023-08-03T00:24:09.239Z",
+        "created_at": "2023-08-03T12:21:58.778Z",
+        "updated_at": "2023-08-03T01:05:40.167Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4c40644f-acf8-46ce-be26-8eed0247b37f"
+      },
+      {
+        "id": "671fd8ef-a49f-4923-8f95-ba5b31a43f65",
+        "usage_time": "2023-08-03T04:52:47.169Z",
+        "created_at": "2023-08-03T13:37:05.394Z",
+        "updated_at": "2023-08-03T10:57:14.279Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ebcc088d-9049-49a3-bf57-fefd558b1fbf"
+      },
+      {
+        "id": "1d89eda2-3019-48ab-91c6-3bc1177480ed",
+        "usage_time": "2023-08-03T00:48:19.313Z",
+        "created_at": "2023-08-03T02:56:12.627Z",
+        "updated_at": "2023-08-02T14:37:45.111Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d020b37c-739e-4cac-a6dc-06ba5d5a129e"
+      },
+      {
+        "id": "11e85e56-a539-4be8-84c6-d420fedae2ee",
+        "usage_time": "2023-08-03T10:52:27.910Z",
+        "created_at": "2023-08-03T12:22:56.967Z",
+        "updated_at": "2023-08-02T15:53:53.940Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ebcc088d-9049-49a3-bf57-fefd558b1fbf"
+      },
+      {
+        "id": "4c68b10d-8d20-44b4-8ce1-e786373e9df5",
+        "usage_time": "2023-08-02T21:16:16.370Z",
+        "created_at": "2023-08-03T11:01:40.114Z",
+        "updated_at": "2023-08-03T11:11:58.517Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1c57348a-4177-4a71-a0d2-2eab34912150"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "7db23c55-dbc0-408c-9c2c-87df962848c1",
+        "start_time": "2023-08-03T10:09:00.778Z",
+        "end_time": "2023-08-03T13:26:42.482Z",
+        "created_at": "2023-08-03T01:37:25.064Z",
+        "updated_at": "2023-08-03T09:35:32.003Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ebcc088d-9049-49a3-bf57-fefd558b1fbf"
+      },
+      {
+        "id": "5cfc1208-6ea8-42b5-a569-ccc05030a601",
+        "start_time": "2023-08-03T11:53:13.066Z",
+        "end_time": "2023-08-03T03:07:58.300Z",
+        "created_at": "2023-08-02T15:32:47.826Z",
+        "updated_at": "2023-08-03T05:25:22.714Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4c40644f-acf8-46ce-be26-8eed0247b37f"
+      },
+      {
+        "id": "f6ac741d-afa6-4bc3-af26-c1d903819415",
+        "start_time": "2023-08-03T04:27:18.158Z",
+        "end_time": "2023-08-02T23:51:47.749Z",
+        "created_at": "2023-08-03T03:30:03.901Z",
+        "updated_at": "2023-08-03T13:40:40.090Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d020b37c-739e-4cac-a6dc-06ba5d5a129e"
+      },
+      {
+        "id": "770d30d5-04f2-4820-98da-08a347292ccc",
+        "start_time": "2023-08-02T23:10:21.532Z",
+        "end_time": "2023-08-03T08:19:47.896Z",
+        "created_at": "2023-08-03T05:14:14.974Z",
+        "updated_at": "2023-08-02T18:27:21.821Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d020b37c-739e-4cac-a6dc-06ba5d5a129e"
+      },
+      {
+        "id": "bae3113c-e2e1-4763-9ea8-5f50716933fb",
+        "start_time": "2023-08-03T11:07:19.105Z",
+        "end_time": "2023-08-02T19:00:57.374Z",
+        "created_at": "2023-08-03T09:52:45.836Z",
+        "updated_at": "2023-08-03T10:26:53.227Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d020b37c-739e-4cac-a6dc-06ba5d5a129e"
+      }
+    ],
+    "performance": [
+      {
+        "id": "5e35dfbf-3055-43e7-84eb-1db582ddd455",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T22:10:09.778Z",
+        "updated_at": "2023-08-03T03:17:45.679Z",
+        "vehicle_id": "1c57348a-4177-4a71-a0d2-2eab34912150"
+      },
+      {
+        "id": "9efb877f-2a8e-4099-916b-019bb8c9c987",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T21:54:51.087Z",
+        "updated_at": "2023-08-03T12:29:47.424Z",
+        "vehicle_id": "ebcc088d-9049-49a3-bf57-fefd558b1fbf"
+      },
+      {
+        "id": "5d004235-8ef5-47b7-aa70-dcfae1867346",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-02T20:12:07.910Z",
+        "updated_at": "2023-08-03T00:34:41.271Z",
+        "vehicle_id": "d020b37c-739e-4cac-a6dc-06ba5d5a129e"
+      },
+      {
+        "id": "871d339a-35a7-4bf1-9719-0239b1245270",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T15:36:31.964Z",
+        "updated_at": "2023-08-03T04:08:47.821Z",
+        "vehicle_id": "b499c3a8-802e-4eda-b9d7-7bcce90dfca0"
+      },
+      {
+        "id": "4d700054-7161-43db-ad26-e258d40695d9",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T16:16:21.032Z",
+        "updated_at": "2023-08-03T06:04:57.325Z",
+        "vehicle_id": "1c57348a-4177-4a71-a0d2-2eab34912150"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "9a132842-49bf-4fb2-9ce7-9cb365506aac",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-03T11:30:17.857Z",
+        "updated_at": "2023-08-03T13:03:04.973Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "beb7d36e-849d-48f1-9c45-b454ed30b8bc",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-03T12:00:40.598Z",
+        "updated_at": "2023-08-03T09:19:29.966Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9b378e81-663e-410c-b5b5-2888e0315d17",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-03T05:02:17.713Z",
+        "updated_at": "2023-08-02T18:31:37.697Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d803f766-0191-42b0-ad94-06f4fd564c51",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-02T18:38:53.523Z",
+        "updated_at": "2023-08-02T23:15:38.270Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "885c3b28-fc9a-4e3e-8e49-08ce34dc9040",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-03T01:52:37.016Z",
+        "updated_at": "2023-08-03T10:23:57.799Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "fc7995ab-8a96-44ab-bc4c-b137ce1b1c9b",
+        "usage_time": "2023-08-02T15:03:39.860Z",
+        "created_at": "2023-08-03T00:50:43.098Z",
+        "updated_at": "2023-08-03T04:16:45.838Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9a132842-49bf-4fb2-9ce7-9cb365506aac"
+      },
+      {
+        "id": "989f7dde-24ec-414d-b4b8-8b9738266e99",
+        "usage_time": "2023-08-03T10:30:05.500Z",
+        "created_at": "2023-08-03T12:41:30.473Z",
+        "updated_at": "2023-08-02T15:10:25.446Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9b378e81-663e-410c-b5b5-2888e0315d17"
+      },
+      {
+        "id": "6e97bb6f-8f52-44fc-b4e9-71a84e745ceb",
+        "usage_time": "2023-08-03T00:47:02.857Z",
+        "created_at": "2023-08-03T09:05:35.034Z",
+        "updated_at": "2023-08-02T16:12:50.390Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "885c3b28-fc9a-4e3e-8e49-08ce34dc9040"
+      },
+      {
+        "id": "332f6c73-5147-456e-a790-792aff2af0c4",
+        "usage_time": "2023-08-02T14:56:44.223Z",
+        "created_at": "2023-08-02T20:07:29.970Z",
+        "updated_at": "2023-08-03T08:08:28.414Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d803f766-0191-42b0-ad94-06f4fd564c51"
+      },
+      {
+        "id": "d927b915-85d8-47dc-b165-40a685520aa0",
+        "usage_time": "2023-08-03T02:13:36.631Z",
+        "created_at": "2023-08-03T05:08:42.368Z",
+        "updated_at": "2023-08-02T15:44:29.965Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9a132842-49bf-4fb2-9ce7-9cb365506aac"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "47a88fc6-d36e-4085-a8fd-1821b15c0cd2",
+        "start_time": "2023-08-03T12:29:09.654Z",
+        "end_time": "2023-08-02T16:30:15.992Z",
+        "created_at": "2023-08-03T11:33:57.789Z",
+        "updated_at": "2023-08-03T03:37:05.614Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9b378e81-663e-410c-b5b5-2888e0315d17"
+      },
+      {
+        "id": "e0ad6691-9ea5-413d-83ef-57677cd2faaa",
+        "start_time": "2023-08-03T14:13:35.725Z",
+        "end_time": "2023-08-03T00:56:05.999Z",
+        "created_at": "2023-08-03T12:36:09.126Z",
+        "updated_at": "2023-08-03T12:57:26.337Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "885c3b28-fc9a-4e3e-8e49-08ce34dc9040"
+      },
+      {
+        "id": "ecc4d4e6-d4bd-46b1-a278-9286ece24c90",
+        "start_time": "2023-08-03T03:19:16.442Z",
+        "end_time": "2023-08-03T13:11:30.538Z",
+        "created_at": "2023-08-03T07:09:55.152Z",
+        "updated_at": "2023-08-02T22:55:43.514Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "885c3b28-fc9a-4e3e-8e49-08ce34dc9040"
+      },
+      {
+        "id": "748d47a2-d55e-4110-b958-98786242e36e",
+        "start_time": "2023-08-03T04:48:40.503Z",
+        "end_time": "2023-08-02T19:23:17.189Z",
+        "created_at": "2023-08-03T02:27:24.418Z",
+        "updated_at": "2023-08-03T02:51:48.229Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "beb7d36e-849d-48f1-9c45-b454ed30b8bc"
+      },
+      {
+        "id": "1c1f193f-f2a0-4bb0-8d3b-26c6d260f6a2",
+        "start_time": "2023-08-03T13:03:14.334Z",
+        "end_time": "2023-08-03T06:58:12.960Z",
+        "created_at": "2023-08-02T20:36:20.717Z",
+        "updated_at": "2023-08-03T07:30:29.755Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9b378e81-663e-410c-b5b5-2888e0315d17"
+      }
+    ],
+    "performance": [
+      {
+        "id": "103e29ec-1acf-4938-af32-ec136d833043",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-03T05:21:05.036Z",
+        "updated_at": "2023-08-03T01:36:44.119Z",
+        "vehicle_id": "d803f766-0191-42b0-ad94-06f4fd564c51"
+      },
+      {
+        "id": "9f65d245-20a0-4e37-8c2a-b51ca39a8635",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T07:05:06.568Z",
+        "updated_at": "2023-08-02T21:49:17.525Z",
+        "vehicle_id": "beb7d36e-849d-48f1-9c45-b454ed30b8bc"
+      },
+      {
+        "id": "b7a388f7-96b9-44e0-ba40-d970a6c465b0",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-03T08:05:31.448Z",
+        "updated_at": "2023-08-03T07:23:57.202Z",
+        "vehicle_id": "beb7d36e-849d-48f1-9c45-b454ed30b8bc"
+      },
+      {
+        "id": "d06bff31-d53e-4e41-b27c-ab7e6e5386db",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T22:26:38.969Z",
+        "updated_at": "2023-08-03T12:01:23.916Z",
+        "vehicle_id": "9a132842-49bf-4fb2-9ce7-9cb365506aac"
+      },
+      {
+        "id": "238bf9ce-e375-459e-b49c-95c6d72900e0",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T18:54:09.223Z",
+        "updated_at": "2023-08-03T13:52:00.919Z",
+        "vehicle_id": "9b378e81-663e-410c-b5b5-2888e0315d17"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "c8b22945-71c4-4fac-9d0a-ee1df1e2e456",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-03T02:04:31.896Z",
+        "updated_at": "2023-08-02T19:22:42.833Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "4b63a559-ba01-4a6a-9480-d2ae33b36055",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-03T08:06:07.182Z",
+        "updated_at": "2023-08-03T03:01:12.217Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "98b1adb6-2660-4fe8-b740-682ed1d47ea9",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-02T20:00:25.154Z",
+        "updated_at": "2023-08-03T03:08:15.030Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "11a3b9c5-1499-43bf-b1b3-4896501a2a12",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-03T05:07:08.582Z",
+        "updated_at": "2023-08-03T00:04:31.970Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "51fe7fac-4212-4122-8426-9d59c462335f",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-02T17:12:13.285Z",
+        "updated_at": "2023-08-02T18:11:57.774Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "e4347ca1-c7be-4922-a91d-418dbdc12afb",
+        "usage_time": "2023-08-02T22:59:47.286Z",
+        "created_at": "2023-08-02T16:47:12.609Z",
+        "updated_at": "2023-08-03T10:40:30.398Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c8b22945-71c4-4fac-9d0a-ee1df1e2e456"
+      },
+      {
+        "id": "03571f4d-db2f-4af1-8012-a01da083d3a2",
+        "usage_time": "2023-08-02T18:06:33.439Z",
+        "created_at": "2023-08-02T20:00:31.461Z",
+        "updated_at": "2023-08-02T20:10:39.557Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "98b1adb6-2660-4fe8-b740-682ed1d47ea9"
+      },
+      {
+        "id": "490e46db-69b5-4a7d-853f-5ae219452dd7",
+        "usage_time": "2023-08-02T21:29:18.452Z",
+        "created_at": "2023-08-03T13:42:30.636Z",
+        "updated_at": "2023-08-03T04:26:52.514Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "51fe7fac-4212-4122-8426-9d59c462335f"
+      },
+      {
+        "id": "d1ce202b-6ba5-467b-a9f5-c98dd8a60dc2",
+        "usage_time": "2023-08-03T10:11:56.142Z",
+        "created_at": "2023-08-03T00:50:55.351Z",
+        "updated_at": "2023-08-02T15:36:30.543Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "11a3b9c5-1499-43bf-b1b3-4896501a2a12"
+      },
+      {
+        "id": "13e4359f-31a9-4bf9-a236-8c7bd61c35d1",
+        "usage_time": "2023-08-03T12:24:18.618Z",
+        "created_at": "2023-08-03T04:57:28.136Z",
+        "updated_at": "2023-08-03T01:44:53.620Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "98b1adb6-2660-4fe8-b740-682ed1d47ea9"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "b51e6709-be42-43e3-b992-3f218a99e135",
+        "start_time": "2023-08-03T09:54:43.902Z",
+        "end_time": "2023-08-02T23:21:19.444Z",
+        "created_at": "2023-08-03T13:29:36.085Z",
+        "updated_at": "2023-08-03T06:09:23.907Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "11a3b9c5-1499-43bf-b1b3-4896501a2a12"
+      },
+      {
+        "id": "d96f6076-d7cd-4e91-a1f0-42d6b0e27c2c",
+        "start_time": "2023-08-03T11:10:54.032Z",
+        "end_time": "2023-08-02T20:44:14.357Z",
+        "created_at": "2023-08-03T04:09:16.507Z",
+        "updated_at": "2023-08-02T23:26:20.054Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "98b1adb6-2660-4fe8-b740-682ed1d47ea9"
+      },
+      {
+        "id": "a07cb530-f1c2-4ce1-858e-d4bcdf942153",
+        "start_time": "2023-08-03T13:47:44.972Z",
+        "end_time": "2023-08-03T10:48:04.906Z",
+        "created_at": "2023-08-03T03:36:21.226Z",
+        "updated_at": "2023-08-03T13:14:33.224Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "98b1adb6-2660-4fe8-b740-682ed1d47ea9"
+      },
+      {
+        "id": "2343b432-9505-41ca-8af8-4552387cdf41",
+        "start_time": "2023-08-03T01:35:55.202Z",
+        "end_time": "2023-08-03T10:30:01.528Z",
+        "created_at": "2023-08-02T15:34:51.815Z",
+        "updated_at": "2023-08-02T23:41:56.011Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "11a3b9c5-1499-43bf-b1b3-4896501a2a12"
+      },
+      {
+        "id": "5c530bb8-3bd5-4f2d-b2a4-d968bdfceeac",
+        "start_time": "2023-08-02T18:43:49.045Z",
+        "end_time": "2023-08-03T02:27:57.883Z",
+        "created_at": "2023-08-02T16:40:56.865Z",
+        "updated_at": "2023-08-03T06:05:38.723Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4b63a559-ba01-4a6a-9480-d2ae33b36055"
+      }
+    ],
+    "performance": [
+      {
+        "id": "f5c5f16f-83e5-4cc8-ba24-25680d7fe509",
+        "usage_data": "100 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T23:36:02.703Z",
+        "updated_at": "2023-08-02T17:43:12.675Z",
+        "vehicle_id": "4b63a559-ba01-4a6a-9480-d2ae33b36055"
+      },
+      {
+        "id": "2870b2af-d8a6-4b53-9b22-15e6171c447f",
+        "usage_data": "50 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-03T11:38:49.846Z",
+        "updated_at": "2023-08-02T22:54:05.969Z",
+        "vehicle_id": "c8b22945-71c4-4fac-9d0a-ee1df1e2e456"
+      },
+      {
+        "id": "b9995195-f024-472d-b405-19688c601493",
+        "usage_data": "200 miles",
+        "demand_data": "Medium",
+        "created_at": "2023-08-03T04:58:12.546Z",
+        "updated_at": "2023-08-03T06:28:04.130Z",
+        "vehicle_id": "11a3b9c5-1499-43bf-b1b3-4896501a2a12"
+      },
+      {
+        "id": "4a4985f1-ed6b-462a-9f6b-c9b40e8cc40e",
+        "usage_data": "75 miles",
+        "demand_data": "Low",
+        "created_at": "2023-08-02T16:49:37.726Z",
+        "updated_at": "2023-08-02T15:41:06.555Z",
+        "vehicle_id": "c8b22945-71c4-4fac-9d0a-ee1df1e2e456"
+      },
+      {
+        "id": "d2edbbfd-4b9b-4cff-b691-14cb31be874b",
+        "usage_data": "150 miles",
+        "demand_data": "High",
+        "created_at": "2023-08-02T23:55:06.492Z",
+        "updated_at": "2023-08-03T00:48:54.538Z",
+        "vehicle_id": "98b1adb6-2660-4fe8-b740-682ed1d47ea9"
+      }
+    ]
+  }
+]
